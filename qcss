@@ -1,0 +1,232 @@
+/* BODY OF SURVEY */
+
+/*
+COLOURS USED
+
+Orange: #ff8c00
+Shade darker orange: #e57e00
+Shade lighter orange: #ff9719
+
+*/
+
+/* NEXT/PREV BUTTONS */
+.Skin #Buttons #NextButton, 
+.Skin #Buttons #PreviousButton, 
+.Skin #Buttons #NextButton:hover, 
+.Skin #Buttons #PreviousButton:hover{
+   background-color: #ff8c00;
+   color: #ffffff;
+   border: 0px solid;
+   box-shadow: none;
+   border-radius: 4px;
+   padding: 10px 30px 10px 30px;
+   margin: 0px;
+   font-family: Arial;
+   font-size: 16px;
+   }
+
+.Skin #Buttons #NextButton:hover, 
+.Skin #Buttons #PreviousButton:hover{
+   background-color: #e57e00;
+   color: #ffffff;
+   }
+
+/* MULTIPLE/SINGLE CHOICE BUTTONS */   
+.Skin label.MultipleAnswer,.Skin label.SingleAnswer{
+	cursor:pointer;
+	background:lgray;
+	border:none;
+	transition:background .2s ease-in-out;
+	padding:20px;
+	display:block;
+	text-align:center;
+	-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;-o-border-radius:4px;border-radius:4px
+	}
+
+	.Skin label.MultipleAnswer,.Skin label.SingleAnswer:hover{
+	cursor:pointer;
+	background:lgray;
+	border:1px solid #ff8c00;
+	transition:background .2s ease-in-out;
+	padding:20px;
+	display:block;
+	text-align:center;
+	-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;-o-border-radius:4px;border-radius:4px
+	}
+
+.RTL .Skin #Buttons,.Skin .MAVR label.MultipleAnswer,.Skin .SAVR label.SingleAnswer{
+	text-align:left
+	}
+
+.Skin label.MultipleAnswer.q-focused,.Skin label.SingleAnswer.q-focused{
+	background:#ff8c00;
+	/* outline:-webkit-focus-ring-color auto 0px */
+	}
+
+.Skin label.MultipleAnswer.q-focused,.Skin label.SingleAnswer.q-focused:hover{
+	background:#ff8c00;
+	border:none;
+	/* outline:-webkit-focus-ring-color auto 0px */
+	}
+	
+.Skin label.MultipleAnswer.q-checked,.Skin label.SingleAnswer.q-checked{
+	background:#ff8c00;
+	color:#fff
+	}
+
+.Skin label.MultipleAnswer.q-checked,.Skin label.SingleAnswer.q-checked:hover{
+	background:#ff8c00;
+	color:#fff;
+	border:none;
+	}
+	
+.Skin label.MultipleAnswer.q-checked.q-focused,.Skin label.SingleAnswer.q-checked.q-focused{
+	background:#ff8c00
+	}
+
+.Skin label.MultipleAnswer.q-checked.q-focused,.Skin label.SingleAnswer.q-checked.q-focused:hover{
+	background:#ff8c00;
+	border:none;
+	}
+	
+.Skin .MC .MAVR input,.Skin .MC .MAVR span.LabelWrapper,.Skin .MC .SAVR input,.Skin .MC .SAVR span.LabelWrapper{
+	float:left
+	}
+	
+.Skin label.MultipleAnswer.q-checked+input,.Skin label.MultipleAnswer.q-checked+textarea,.Skin label.SingleAnswer.q-checked+input,.Skin label.SingleAnswer.q-checked+textarea{
+	border-color:#ff8c00
+	-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;-o-border-radius:4px;border-radius:4px
+	}
+	
+.Skin label.MultipleAnswer.q-focused.q-checked,.Skin label.SingleAnswer.q-focused.q-checked{
+	/* outline:#ff8c00 auto 0px */
+	border-color:#ff8c00
+	-webkit-border-radius:4px;-moz-border-radius:4px;-ms-border-radius:4px;-o-border-radius:4px;border-radius:4px
+	}
+
+/* TEXTBOX */	
+.Skin .TE textarea,.Skin input.TextEntryBox,.Skin input[type=text],.Skin input[type=password],.Skin input[type=search],.Skin select,.Skin textarea{
+	border:1px solid lgray;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	-ms-border-radius:4px;
+	-o-border-radius:4px;
+	border-radius:4px;
+	padding:5px
+	min-width: 100px
+	}
+	
+.Skin .TE textarea:focus,.Skin input.TextEntryBox:focus,.Skin input[type=text]:focus,.Skin input[type=password]:focus,.Skin input[type=search]:focus,.Skin select:focus,.Skin textarea:focus{
+	border-color:#ff8c00;
+	outline:0
+	}
+	
+.Skin label.MultipleAnswer.q-checked+input, .Skin label.MultipleAnswer.q-checked+textarea, .Skin label.SingleAnswer.q-checked+input, .Skin label.SingleAnswer.q-checked+textarea {
+    border-color: #ff8c00;
+}
+
+/* RADIO BUTTONS */	
+.Skin label.q-checkbox,.Skin label.q-radio{border:2px solid #ff8c00;width:1.1em;height:1.1em;display:inline-block;background:0 0}
+.Skin label.MultipleAnswer.q-focused.q-checked,.Skin label.SingleAnswer.q-focused.q-checked{outline:#ff8c00 auto 0px}
+.Skin label.q-radio.q-checked{background-color:#ff8c00;outline:0}
+.Skin label.q-radio.q-checked.q-focused{background-color:#ff9719}
+.Skin label.q-radio.q-focused{-webkit-box-shadow:0 0 4pt 2pt #78A0C9;-moz-box-shadow:0 0 4pt 2pt #78A0C9;box-shadow:0 0 4pt 2pt #78A0C9;outline:0}
+.Skin label.q-radio.q-focused.q-checked{-webkit-box-shadow:0 0 4pt 2px #ffae4c;-moz-box-shadow:0 0 4pt 2px #ffae4c;box-shadow:0 0 4pt 2px #ffae4c}	
+	
+/* TEXT QUESTION AREA */
+/* .Skin {	
+	background:#f1f1f1;
+	background-color:#f1f1f1;
+}
+	.Skin .SkinInner {
+		margin:0;
+		background:none;
+	} */
+	.Skin #SkinContent {
+		font-size:inherit;
+		color:inherit;
+		width: 900px;
+		margin:0px 0px 10px 0px;
+		min-height:30em;
+		padding:10px;
+		background:white;
+		border-top:solid 1px gray;
+		border-right:solid 1px gray;
+		border-bottom:solid 1px gray;
+		border-left:solid 1px gray;	
+		border-radius: 0px 0px 15px 15px;
+		overflow:hidden;
+		clear:both;
+	}
+
+/* HEADER */
+#header{
+
+	padding: 10px;
+    background: #404040;
+	margin: 0 auto; 
+	width: 900px;
+	position:static;
+    left:0;
+    right:0;
+	border-radius: 15px 15px 0px 0px
+}
+#headerContent{
+    margin: 0 auto; width: 900px;
+	padding: 20px 0px 20px 10px
+}
+
+/* FOOTER */
+#Footer {
+    background: white;
+	padding: 10px;
+	width: 900px;
+	display: block;
+    margin: auto;
+    width: 40%;
+	/* margin:120px 0px 10px 0px;
+	margin: 10px 0px 0px 0px */
+}
+
+	#Footer .pad {
+		padding:10px
+	}
+
+/* CALENDAR */
+.Skin .yui-skin-sam .yui-calcontainer{border-radius:4px;background-color:#ffffff;border:1px solid #ff8c00;overflow:hidden;padding:1;font-family: Arial}
+.Skin .yui-skin-sam .yui-calendar .calheader{padding:.6em;background:#ff8c00;color:#ffffff;font-weight:300}
+.Skin .yui-skin-sam .yui-calendar .calheader a.calnavleft,.Skin .yui-skin-sam .yui-calendar .calheader a.calnavright{position:relative;color:#ffffff;margin:0;right:0;left:0;width:18px;height:17px;background-image:none;text-indent:0}
+.Skin .yui-skin-sam .yui-calendar .calheader a.calnavleft{float:left}
+.Skin .yui-skin-sam .yui-calendar .calheader a.calnavleft:before{content:'<<'}
+.Skin .yui-skin-sam .yui-calendar .calheader a.calnavright{float:right}
+.Skin .yui-skin-sam .yui-calendar .calheader a.calnavright:before{content:'>>'}
+.Skin .yui-skin-sam .yui-calendar .calweekdayrow{background-color:#ffffff;} 
+.Skin .yui-skin-sam .yui-calendar .calweekdaycell{color:#ff8c00;font-weight:200;font-family: Arial}
+.Skin .yui-skin-sam .yui-calendar td.calcell{background:#ffffff;border:0}
+.Skin .yui-skin-sam .yui-calendar td.calcell a{color:#333333;font-family: Arial;font-weight:100}
+.Skin .yui-skin-sam .yui-calendar td.calcell.today{background-color:#f2f2f2;border-radius:2px}
+.Skin .yui-skin-sam .yui-calendar td.calcell.today a{background-color:transparent;border-radius:2px}
+.Skin .yui-skin-sam .yui-calendar td.calcell.selected a{background-color:#ff8c00;border-radius:3px;color:#ffffff}
+.Skin .yui-skin-sam .yui-calendar td.calcell.selected{background-color:#fff3e5}
+.Skin .yui-skin-sam .yui-calendar td.calcell.calcellhover{background-color:#ffc57f;border-radius:3px}
+.Skin .yui-skin-sam .yui-calendar td.calcell.calcellhover a{background-color:#ffe8cc;border:none;border-radius:3px;color:#333333}
+.Skin .yui-skin-sam .yui-calendar td.calcell.oom{color:#d8d8d8;background-color:#ffffff;font-family: Arial;font-weight:100}
+.Skin .yui-skin-sam .yui-calendar td.calcell.previous{color:#d8d8d8;font-family: Arial;font-weight:100}
+
+/* PROGRESS BAR */
+.Skin .ProgressBarContainer label,.Skin .ProgressBarContainer span{display:block;text-align:center;font-size:80%}
+.Skin #ProgressBar{font-size:10px;position:relative}
+.Skin #ProgressBar tr td:first-child{color:#ffffff;position:absolute;left:0;line-height:11px;border-left:none;width:100%;padding-top:0px;padding-left:4px}
+.Skin #ProgressBar tr td:first-child+td{width:100%}
+.Skin #ProgressBar tr td:first-child+td+td{position:absolute;right:0;line-height:11px;color:#ffffff;padding-top:0px;padding-right:4px}
+.Skin .ProgressBarContainer{width:100%;border-collapse:collapse;border-right:0px solid #fafafb;border-left:0px solid #fafafb}
+.Skin #ProgressBarFillContainer,.Skin .ProgressBarFillContainer{border-radius:0;overflow:hidden;background:#fafafb;width:100%}
+.Skin .ProgressBarFill{background-color:#ff8c00;height:10px;height:10px}
+
+/* TABLE */
+.UserTable {
+    width: 100%;
+	border: 1px solid #ffffff;
+    margin: 0px;
+    border-collapse: collapse;
+}
